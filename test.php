@@ -1,6 +1,6 @@
 <?php 
 function changeTheWord($word){
-    $alphabet = 'abcdefghijklmnopqrstuvwzyz';
+    $alphabet = 'abcdefghijklmnopqrstuvwxyz';
     $len = strlen($word);
     $res = '';
 for($i = 0; $i < $len; ++$i) {
